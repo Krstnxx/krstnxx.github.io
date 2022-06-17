@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+<title>KFM Photography</title>
+<link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+<div class="bg">
+<div id="wrap">
+  <nav>
+    <div class="logo">
+      <strong>KFM</strong>
+    </div>
+    <button type="button" class="btn-hamburger" data-action="nav-toggle">
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+    </button>
+    <ul class="nav-menu">
+      <li class="nav-item dropdown">
+        <a href="#" data-action="dropdown-toggle">Portfolio</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="./try.html">Portrait</a>
+          <a class="dropdown-item" href="./Places.html">Places</a>
+          <a class="dropdown-item" href="./fashion.html">Fashion</a>
+      <li class="nav-item"><a href="./about.html">About</a></li>
+      <li class="nav-item"><a href="#">Albums</a></li>
+      <li class="nav-item"><a href="#">Contact</a></li>
+    
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
+  <h1 class="a"> Kristin AFM </h1>
+	<h1 class="b"> P H O T O G R A P H Y</h1>	
+</div>
+</div>
+<div class="icon-bar">
+  <a href="https://instagram.com/_krstnxx" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://twitter.com/krstnxx_" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="mailto.magsipoccristineann@gmail.com" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://linkedin.com/in/cristine-ann-magsipoc-" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+<script>
+  let nav = document.querySelector('nav');
+  let dropdown = nav.querySelector('.dropdown');
+  let dropdownToggle = nav.querySelector("[data-action='dropdown-toggle']");
+  let navToggle = nav.querySelector("[data-action='nav-toggle']");
+ 
+  dropdownToggle.addEventListener('click', () => {
+   if (dropdown.classList.contains('show')) {
+     dropdown.classList.remove('show');
+   }
+    else {
+      dropdown.classList.add('show');
+   }
+ })
+
+ navToggle.addEventListener('click', () => {
+   if (nav.classList.contains('opened')) {
+     nav.classList.remove('opened');
+   }
+    else {
+     nav.classList.add('opened');
+   }
+ })
+</script>
+
+ 
+</div></body></html>

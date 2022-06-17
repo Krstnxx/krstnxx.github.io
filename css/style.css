@@ -1,0 +1,227 @@
+
+  /*header*/
+  body {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  background-color:rgba(221, 162, 162, 0.658);
+  font-family: sans-serif;
+}
+
+
+/*navigation bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5;
+  overflow: hidden;
+  background-color:rosybrown;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-emphasis-color: black;
+  background-color: rosybrown;
+  opacity: 0.5;
+  text-decoration: none;
+}
+div {
+  border: whitesmoke(221, 162, 162);
+
+}
+li2 {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-left: 1%;
+}
+
+.parallax {
+
+  background-image: url('../photos/BG.jpg');
+  min-height: 500px; 
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  float: right;
+  margin-top:5px;
+}
+
+.parallax2 {
+
+  background-image: url('../photos/BG.jpg');
+  min-height: 400px;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+}
+
+
+.fa {
+  font-size:20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  color: black;
+  opacity: 0.7;
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+.btn {
+  background-color: rosybrown;
+  color: black;
+  cursor: pointer;
+  font-size: 10px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color:rosybrown;
+  text-decoration: none;
+  border: none;
+}
+p.a {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+ 
+}
+p.b {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 5px;
+  
+}
+h1.a {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 200;
+  align-items: center;
+}
+h2.a {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 20px;
+
+}
+h3 {
+  text-align: center;
+  font-family: arial;
+  color:black;
+  font-size: 15px;
+  margin-top: 50px;
+  align-items: center;
+
+}
+p.b {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+p.c {
+  font-size: 15px;
+  text-align: center;
+}
+p.d {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) { 
+  p.a {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 15px;
+  
+}
+h1.a{
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+h3 {
+  text-align: center;
+  font-family: arial;
+  color:black;
+  font-size: 15px;
+  margin-top: 20%;
+ align-items: center;
+
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 50%;
+  color: black;
+  opacity: 0.7;
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+.btn {
+  background-color: rosybrown;
+  color: black;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+btn:hover {
+  background-color:rosybrown;
+  text-decoration: none;
+  border: none;
+}
+p.b {
+  font-size: 30px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+p.c {
+  font-size: 14px;
+}
+p.d {
+  font-size: 15px;
+}
+}

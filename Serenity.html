@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Satisfy&family=Source+Serif+4:wght@200;400&display=swap" rel="stylesheet">
+
+
+  	<title> My Second Portfolio</title>
+</head>
+
+	<style>
+	html {
+		scroll-behavior: smooth;
+	}
+
+	/*header*/
+body {
+  background-image: url('./photos/coffee.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center;
+  width: 100%;
+  object-fit: cover;
+ 
+}
+
+
+
+/*header*/
+.header {
+	background-color: transparent;
+	margin-left: 0;
+	margin-right: 0%;
+  margin-top: 30px;
+  
+}
+
+.header a {
+  float: right;
+  color: rgb(30, 58, 58);
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 30px;
+  margin-right: 20px;
+  font-family: 'EB Garamond', serif; font-family: 'EB Garamond', serif;font-family: 'Satisfy',;
+
+}
+
+.header a:hover {
+  
+  color: whitesmoke;
+}
+
+
+
+nav {
+  width: 30%;
+  height: 300px; 
+  float: left;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  width: 60px;
+  list-style-type: none;
+  position: fixed;
+  top:60%;
+  left:0.5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-bottom: 1000px;
+}
+
+.icons a {
+  display:block ;
+  text-align: top;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgb(30, 58, 58);
+  font-size: 20px;
+}
+
+.icons :hover {
+ color: white;}
+
+article {
+margin-left: 50px;
+margin-right: 350;
+padding: 15px;
+}
+
+
+
+/*content first page*/
+.parallax {
+
+min-height: 1000%;
+background-attachment: fixed;
+background-position: center;
+background-repeat:repeat;
+background-size: cover;
+justify-content: center;
+
+}
+
+
+/* image style */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+.row2 {
+  display: flex;
+}
+
+/*COLUMNS STYLE*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 20%;
+}
+.column4 {
+  width: 33.33%;
+  padding: 5px;
+  margin-top:10%;
+ 
+  
+}
+
+
+/*text-alignment*/
+
+h1.a{
+
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50;
+  font-family: 'san-serif',cursive;
+  font-size: 50px;
+
+}
+
+p.a {
+
+text-align: center;
+margin-left: 25%;
+margin-right: 70%;
+margin-top: 30%;
+
+}
+
+/* text styles*/
+.right {
+  position: absolute;
+  right: 100px;
+  margin-top: 100px;
+  margin-right: 17%;
+  width: 300px;
+  font-style: 'san serif',cursive;
+  font-size: 30px;
+  text-align: center;
+ 
+}
+
+.left {
+  position: absolute;
+  left: 100px;
+  margin-top: 100px;
+  margin-right: 17%;
+  width: 300px;
+  font-style: 'san serif',cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 40%;
+  width: 300px;
+  font-style: 'san serif',cursive;
+  font-size: 30px;
+  text-align: center;
+
+}
+/*buttons*/
+.button {
+  background-color: transparent;
+  padding: 25%;
+  text-align: center;
+  color:  rgb(30, 58, 58);
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-color: rgb(30, 58, 58);
+  margin-top: 15%;
+ 
+}
+
+
+.button1 {border-radius: 50%;}
+.button2 {border-radius: 50%;}
+.button3 {border-radius: 50%;}
+.button4 {border-radius: 50%; margin-top: 10%;}
+.button:hover {
+  background-color: rgb(30, 58, 58);
+  color: whitesmoke;
+ 
+}
+
+/* scroll down */
+.arrow {
+
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 650px;
+  margin-right: 650px;
+  scroll-behavior: smooth;
+
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* HR styles */
+hr.a {
+border-color:white;
+margin-right:350px;
+margin-left:350px;
+}
+hr.b {
+border-color:rgb(30, 58, 58);
+margin-left:10%;
+margin-right:65%;
+}
+hr.c {
+border-color:rgb(30, 58, 58);
+margin-left: 27%;
+margin-right: 27%;
+}
+hr.d {
+border-color:rgb(30, 58, 58);
+margin-left: 43%;
+margin-right:43%;
+
+}
+/* CONTAINER STYLES*/
+#container {
+  background-color: transparent;
+  width: 100%;
+  height: 200%;
+  padding-bottom: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  background-color: rgb(30, 58, 58);
+   color: rgb(30, 58, 58);
+  
+}
+#container div {
+  width: 200%;
+  height: 200%;
+  color: white ;
+  font-size: 14px;
+  font-family: 'Source Serif 4', sans-serif;
+  flex: content;
+
+}
+
+/*IMAGE STYLES*/
+
+img.c4a {
+ margin-left: 60%;
+ width: 400px;
+ display: flex;
+}
+
+img.c4b {
+  margin-left: 50%;
+  width: 400px;
+  display: flex;
+}
+img.logo {
+ width: 130px;
+ margin-left: 15%;
+ display: flex;
+
+}
+img.logo1 {
+  width:100px;
+  margin-right:50%;
+  margin-left:30px;
+  display: flex;
+}
+@media ( max-width: 768px) {
+  h1 { font-size: 4em;}
+}
+
+@media ( min-width:1000px )and( max-width: 768px) {
+  body { justify-content: 4em;}
+}
+@media (max-width:768px) {
+  nav { display: flex; justify-content: center;
+  size: 4em}
+}
+/* F O O T E R 
+
+.footer {
+   width: 100%;
+   padding-bottom: 15%;
+   padding-top: 5%;
+   background-color: rgb(30, 58, 58);
+   color: rgb(30, 58, 58)
+   text-align: left; */
+
+  
+
+	</style>
+  <script src="https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous"></script>
+</head>
+
+<body>
+
+	<div class="header" style="font-style:italic;font-size:1pxvw;size:100px;overflow:auto">
+    <img src="./photos/CM1.png" class="logo1">
+    <a href="#Reads">Reads</a>
+		<a href="#Photographs">Photographs</a>
+		<a href="#Films">Films</a>
+		<a href="#Words">Words</a>
+
+	  </div> 
+     <nav>
+	  <section>
+		<div id="Home" style= "height:350px; font-size:20px;text-align:left; padding:25px;">
+	  <div class="icons">
+		<a href="#"><i class="fa fa-home"></i></a>  
+		<a href="#Photographs" type="button" class="btn-floating btn-lg btn-cam"><i class="fa fa-camera"></i></a>
+ 		 <a href= "#Reads" type="button" class="btn-floating btn-lg btn-book"><i class="fa fa-book"></i></a>
+ 		<a href="#Films" type="button" class="btn-floating btn-lg btn-film"><i class="fa fa-film"></i></a>
+     <a href="" type="button" 
+     class="btn-floating btn-lg btn-pencil"><i class="fa fa-pencil"></i></a>
+  </div>
+	</div> </nav>
+<article>
+<hr class="a">
+<h1 style="margin-right:350px;margin-left:350px;text-align:center; font-size:60px;font-family: 'EB Garamond', serif;font-family: 'Satisfy', cursive;font-family: 'Source Serif 4', sans-serif; color:rgb(30, 58, 58);"> WELCOME TO MY SERENITY!</h1>
+<hr class="a">
+
+<div class="arrow down" id="arrow down">
+  <a href="#column"></a>
+
+
+</div>
+</article>
+
+
+<div id="Reads" style="margin-top:30%; background-color:floralwhite; padding-bottom:75%;">
+ <div class="column">
+   <img src="./photos/bookcover.jpg" alt="bookcover" class="img-responsive margin" style="width:500px; margin-left:40%; margin-top: 30%;">
+  </div>
+ 
+  <div class="right">
+    <hr class="c">
+    <p style="letter-spacing: 5px;margin-left:30%;text-align:justify; font-size: 32px;font-family: 'EB Garamond', serif; font-family: 'EB Garamond', serif;font-family: 'Satisfy', cursive;font-family: 'Source Serif 4', sans-serif; color:rgb(30, 58, 58)"> READS</p>
+    <hr class="c">
+    <p style="font-size: 14px; margin-left: 10%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+    
+    <button class="button button1">Learn More</button>
+
+  </div>
+
+ <div class="column" style= "margin-top: 33%;">
+  <img src="./photos/bcover2.jpg" alt="bcover2" class="img-responsive margin" style="width:400px;margin-left:55%;margin-right:10%;">
+ </div>
+</div>
+
+<div id="Photographs" style="font-size:20px;text-align:left; background-color:floralwhite; padding-bottom:5%;">
+	<div class="title" style="background-color: floralwhite; padding-top:5%;">
+    <hr class="b">
+    <h1 style="font-size: 36px; font-family: 'Satisfy', cursive; font-family: 'Source Serif 4', sans-serif; margin-left: 10%; color:rgb(30, 58, 58);">  P H O T O G R A P H S </h1>
+    <hr class="b">
+    <p style="font-size: 14px; font-style: normal; text-align: left; margin-left: 10%; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif  ;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <BR>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+	    <div class="row">
+        <div class="left">
+        <button class="button button2">Learn More</button>
+        </div>
+
+      <div class="column2">
+         <img src="./photos/tu.jpg" alt="tu" class="img-responsive margin" style="width:350px; margin-top:20%; margin-left: 110%;">
+         </div>
+        <div class="column2">
+          <img src="./photos/wan.jpg" alt="wan" class="img-responsive margin" style="width:350px; margin-top:20%; margin-left: 90%;">
+          </div>
+        </div>
+</div> </div>
+
+
+
+<div id="Films" style="font-size:20px; background-color:floralwhite; padding-bottom:10%;">
+  <div class="row2">
+    <div class="column3">
+      <img src="./photos/films2.jpg" alt="films2">
+    </div>
+    <div class="right" style="margin-top:20%; margin-right: 10%;">
+      <hr class="c">
+      <p style="margin-left:30%;text-align:justify; font-size: 32px;font-family: 'EB Garamond', serif; font-family: 'EB Garamond', serif;font-family: 'Satisfy', cursive;font-family: 'Source Serif 4', sans-serif; color:rgb(30, 58, 58)"> F I L M S  </p>
+      <hr class="c">
+      <p style="font-size: 14px; margin-left: 10%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+      
+      <button class="button button3">Learn More</button>
+ 
+    </div>
+    <div class="column3" style="margin-top:50%; margin-left:27.1%;" >
+    <img src="./photos/films3.jpg" alt="films3">
+    
+    </div>
+
+  </div>
+</div>
+
+<div id="Words" style="font-size:20px; background-color:floralwhite; padding-bottom:20%; padding-top:5%;">
+  <div class="title" style="background-color: floralwhite;">
+    <hr class="d">
+    <h1 style="font-size: 36px; font-family: 'Satisfy', cursive;text-align: center; font-family: 'Source Serif 4', sans-serif;  color:rgb(30, 58, 58);"> W O R D S </h1>
+    <hr class="d">
+    <p style="margin-top:30px; font-size: 14px; font-style: normal; text-align: center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif  ;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <BR>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+	    <div class="row">
+        <div class="center">
+        <button class="button button4">Learn More</button>
+</div>
+
+    <div class="column4">
+    <img src="./photos/words.jpg" class="c4a" alt="words">
+    </div>
+<div class="column4">
+    <img src="./photos/words2.jpg" class="c4b" alt="words2">
+ </div> </div>
+</div>
+</div>
+
+<section id="container">
+  <img src="./photos/CM1.png" class="logo" alt="CM1">
+  <div style="background-color: transparent">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    </div>
+  <div style="background-color: transparent;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    </div>
+  <div style="background-color: transparent;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    </div>
+  
+</section>
+</div>
+</body></html>
