@@ -42,7 +42,7 @@ body {
     border: none;
     outline: none;
     background: rgba(83, 228, 218, 0.712);
-    color: #fff;
+    color: white;
     font-size: 22px;
     cursor: pointer;
     border-radius: 3px;
@@ -86,6 +86,7 @@ body {
 
 .TodoList li:hover span {
     right: 0px;
+    
 }
 
 .wrapper .footer {
