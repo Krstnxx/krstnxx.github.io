@@ -106,7 +106,7 @@ body {
     border-radius: 3px;
     padding: 6px 10px;
     opacity: 0.6;
-    pointer-events: none;
+    pointer-events:auto;
 }
 .footer button.active {
     opacity: 1;
