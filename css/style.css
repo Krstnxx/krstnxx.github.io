@@ -52,7 +52,7 @@ li2 {
 
 .parallax {
 
-  background-image: url('../photos/BG.jpg');
+  background-image: url('../photos/bg.jpg');
   min-height: 500px; 
   opacity: 0.5;
   background-attachment: fixed;
@@ -71,7 +71,7 @@ img {
 
 .parallax2 {
 
-  background-image: url('../photos/BG.jpg');
+  background-image: url('../photos/bg.jpg');
   min-height: 400px;
   opacity: 0.6;
   background-attachment: fixed;
