@@ -5,16 +5,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(91, 223, 210, 0.435)30%, rgba(65, 141, 131, 0.919)70%);
+body, html {
+    background-image: url('../photos/Tdbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background: linear-gradient(to bottom, rgba(91, 223, 210, 0.435)30%, rgba(65, 141, 131, 0.919)70%);*/
 }
 .wrapper {
     margin: 120px auto;
     max-width: 400px;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(165, 90, 135, 0.783)30%, rgba(141, 44, 102, 0.596)80%);
+    background: linear-gradient(to bottom, rgba(207, 109, 168, 0.783)30%, rgb(128, 37, 92)80%);
     padding: 25px;
 }
 .wrapper .header {
