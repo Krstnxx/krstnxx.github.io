@@ -53,7 +53,7 @@ body {
 
 .InputField button.active {
     opacity: 1;
-    pointer-events: auto;
+    pointer-events:visible;
 }
 .wrapper .TodoList {
     max-height: 250px;
