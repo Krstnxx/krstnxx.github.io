@@ -23,6 +23,7 @@ body, html {
 .wrapper .header {
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
 }
 .wrapper .InputField {
     display: flex;
