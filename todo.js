@@ -37,8 +37,7 @@ function showTask() {
     } else {
         listArr = JSON.parse(getLocalStorage);
     }
-    const pendingNum = document.querySelector(".pendingNum");
-    pendingNum.textContent = listArr.length;
+    
     if (listArr.length > 0) {
         deleteAllBtn.classList.add("active")
     }else {

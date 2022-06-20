@@ -99,9 +99,10 @@ body, html {
     width: 100%;
     align-items: center;
     margin-top: 25px;
-    justify-content: space-between;
+    justify-content: center ;
 }
 .footer button {
+    
     border: none;
     outline: none;
     background: rgba(83, 228, 218, 0.712);
