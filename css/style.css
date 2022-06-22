@@ -196,7 +196,7 @@ h3 {
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 
 }
 .btn {
@@ -208,8 +208,8 @@ h3 {
   text-decoration: none;
   align-items: center;
 }
-btn:hover {
-  background-color:rosybrown;
+.btn:hover {
+  opacity: 0.8;
   text-decoration: none;
   border: none;
 }

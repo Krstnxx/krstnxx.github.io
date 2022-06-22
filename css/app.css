@@ -4,7 +4,7 @@ body, html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
- 
+
 }
 
 
@@ -246,7 +246,7 @@ h1.b {
 
 
   @media screen and (max-width: 768px) {
-  
+
     h1.a {
       font-size:50px;
       margin-top: 35%;  
