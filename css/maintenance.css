@@ -1,4 +1,3 @@
-
 body {
   background: url('../photos/main.jpg') no-repeat center;
   background-position: center;
@@ -10,17 +9,18 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 130vh;
-    padding-top: 5em;   
+    padding-top: 6em;   
 
 }
 *, *::before, *::after {
+  
 	box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 .container {
   margin: auto;
-  padding: 1em;
+  padding: 2em;
   width: 80%;
   text-align: center;
 }
@@ -41,7 +41,7 @@ body {
   height: 1em;
 	width: calc(var(--width, 0) * 1%);
 	min-width: none;
-	max-width: calc(100% - 7em);
+	max-width: calc(100% - 12em);
 	background-color: #81c9e3;
   animation: progressAnimation 5s;
 }
@@ -52,11 +52,11 @@ body {
 }
 
 h1.a {
-  font-weight: 800;
-  font-family:'Dosis', sans-serif;
-  font-size: 6em;
-  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: 'Dosis', sans-serif;
+  font-size: 7em;
   text-align: center;
+  letter-spacing: 0.2em;
 }
 h3.a {
   font-size: 0.9em;
@@ -69,17 +69,22 @@ h3.a {
 
 .container button {
   border: none;
-  margin-top: 25%;
+  margin-top: 20%;
   outline: none;
   background: #81c9e3;
-  color: #fff;
+  color: black;
   font-size: 14px;
   cursor: pointer;
-  padding: 15px 50px;
+  padding: 17px 70px;
   pointer-events: visible;
 }
 .container button a {
   text-decoration: none;
+  color: black;
+}
+.container button:hover {
+  background-color: #0a6b8c;
+  opacity: 0.6;
   color: white;
 }
 p{
@@ -146,7 +151,7 @@ h6.b {
    
   }
   h1.a {
-    font-size: 3em;
+    font-size: 4em;
   }
   h3.a {
   font-size: 1em;
@@ -158,8 +163,9 @@ h6.b {
   padding: 1em;
 }
 .button {
-  padding: 1em;
+  padding: 2em;
 }
+
 }
 
 @media screen and (min-width: 769px) {
@@ -171,3 +177,142 @@ h6.b {
   }
 }
 
+
+.come-from-modal.left .modal-dialog,
+.come-from-modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.come-from-modal.left .modal-dialog,
+.come-from-modal.right .modal-dialog {
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 0px;
+    background-color: #81c9e3;
+}
+
+.come-from-modal.right.fade .modal-dialog {
+  text-align: center;
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.come-from-modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
+  text-align: center;
+  display: inline-block;
+  border:black;
+  border-style: solid;
+  background: #f1f1f1;
+
+  
+
+}
+
+
+input[type=text]:focus {
+  padding: 1em;
+  background-color: #ddd;
+  outline: none;
+
+}
+
+
+button.C {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button.C:hover {
+  opacity:1;
+}
+
+
+
+/* Float signup buttons and add an equal width */
+ .signupbtn {
+  float: center;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+  background-color:black;
+  color: #fff;
+}
+.signupbtn:hover {
+background-color: #0a6b8c;
+}
+
+/* Add padding to container elements */
+.containerC {
+  text-align: center;
+  padding-top: 10em;
+}
+
+
+
+h1.C {
+padding-top: 4em;
+text-align: center;
+font-size: 2.5em;
+letter-spacing: 0.1em;
+}
+ h5 {
+  text-align: center;
+  font-size:1em;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+ 
+
+.modal-dialog .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  color: black;
+}
+
+.close:hover{
+  color: #0a6b8c;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+ .signupbtn {
+     width: 100%;
+  }
+}
